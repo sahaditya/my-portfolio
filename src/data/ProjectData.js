@@ -30,17 +30,17 @@ export const ProjectList = [
     img: AtherImageLong,
     title: "Ather energy website with website backend",
     description: `Migrated website from EJS and JQuery to Next JS. Designed and developed career page end to end. Introduced CMS for faster 
-    delivery of work and automating dynamic page creation on run time. Education non-tech people to use CMS and virtue of this reducing dev efforts.`,
+    delivery of work and automating dynamic page creation on run time. Educated non-tech people to use CMS and virtue of this reducing dev efforts.`,
     tech_stack: "Node JS, Next JS, PGSql, SpringBoot, GCP kubernetes, cloudflare as CDN and DNS, Docker. ",
     demo_url: "Website: https://www.atherenergy.com/",
   },
   {
     img: AtherImageLong,
-    title: "Test ride & Home test ride and Pre-order booking of scooty",
-    description: `Designed and implemented the end-to-end flow of scooty testride and pre-order booking, transferring data to multiple systems and making it available for marketing, brand people, and CREs to convert, directly increasing ather revenue.
+    title: "Test ride & Home test ride and Pre-order booking of scooter",
+    description: `Designed and implemented the end-to-end flow of scooter testride and pre-order booking, transferring data to multiple systems and making it available for marketing, brand people, and CREs to convert, directly increasing ather revenue.
     Tracing user behaviors using Google Analytics, executing many A/B tests, and identifying and resolving flow gaps, allowing campaigns to target people for conversions.
-    Moved the whole flow to a WhatsApp chatbot, which increased bookings by 20% and had a direct impact on revenue.`,
-    tech_stack: "Node JS, Next JS, PGSql, GCP kubernetes, cloudflare as CDN and DNS, Docker.",
+    Moved the whole flow to a WhatsApp chatbot, which increased bookings by 40% and had a direct impact on revenue.`,
+    tech_stack: "Node JS, Next JS, PGSql, GCP kubernetes, cloudflare, CDN, DNS, Docker.",
     demo_url: "TR: https://www.atherenergy.com/testride/450x, Booking: https://app.atherenergy.com/product/scooter/book?model=450S",
   },
   {
@@ -54,7 +54,7 @@ export const ProjectList = [
     img: AtherImageShort,
     title: "Ather Merchandise Service",
     description:
-      "created a merchandise microservice that integrates with an e-commerce website and is used for third-party ERP tool invoicing and logistics.",
+      "Developed a merchandise microservice that integrates with an e-commerce website and is used for third-party ERP tool invoicing and logistics.",
     tech_stack: "SpringBoot, Kafka, K8, Docker, PGSQL",
     demo_url: "Merch: https://shop.atherenergy.com/",
   },
@@ -87,7 +87,7 @@ export const ProjectList = [
       Excell sheet data of foods with 60 properties is processed, cleaned, and then pipelined via several Mongo Scripts before being pushed to a production database for testing.
       Food search was implemented using several caching strategies.
       created group and individual chat rooms for nutritionists and clinician on a website.`,
-    tech_stack: "SpringBoot, Angular JS, MongoDB, AWS",
+    tech_stack: "SpringBoot, Angular JS, FireBase, MongoDB, AWS",
     demo_url: "Website: https://www.investonhealth.com/",
   },
 ];
