@@ -2,6 +2,7 @@ import React from "react";
 import { FaTimes } from "react-icons/fa";
 import styled from "styled-components";
 import { Link as ScrollLink } from "react-scroll";
+import { RESUME_LINK } from "../About/aboutME";
 
 const SiderBar = styled.div`
   background: #151418;
@@ -89,7 +90,7 @@ function Dropdown({ isOpen, toggle }) {
       <NavBtn onClick={toggle}>
         <a
           className="btn PrimaryBtn"
-          href="https://github.com/sahaditya/sahaditya"
+          href={RESUME_LINK}
           target="_blank"
           rel="noopener noreferrer"
         >

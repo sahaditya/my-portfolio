@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
+import { RESUME_LINK } from "../About/aboutME";
 
 const Header = ({ toggle }) => {
   return (
@@ -25,7 +26,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://github.com/sahaditya/sahaditya"
+            href={RESUME_LINK}
             target="_blank"
             rel="noopener noreferrer"
           >

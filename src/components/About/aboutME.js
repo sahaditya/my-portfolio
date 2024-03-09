@@ -4,7 +4,9 @@ Possess good interpersonal communication skill to work as a team and collaborate
 
 export const about = `I design and code scalable and distributed systems and assist teams and 
 developers in developing such systems using cutting-edge technology from start 
-to finish. Assist the organization in making business decisions based on insights from system and feature behaviour.`
+to finish. Assist the organization in making business decisions based on insights from system and feature behaviour.`;
+
+export const RESUME_LINK = `https://github.com/sahaditya/sahaditya/blob/main/cv_ltst_f_3.pdf`;
 
 export const EXPERTISE = {
     title : 'Area of Expertise',
