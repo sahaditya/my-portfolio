@@ -11,6 +11,7 @@ import {
   ScrollDown,
   ScrollLink,
 } from "./HeroElements";
+import { ME } from "../About/aboutME";
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -27,9 +28,7 @@ function Hero() {
             <h1>Hi, I'm Manoj Sah</h1>
             <h5>Senior Software Engineer</h5>
             <p>
-            I design and code scalable and distributed systems and assist teams and 
-            developers in developing such systems using cutting-edge technology from start 
-            to finish. Assist the organisation in making business decisions based on insights from system and feature behaviour.
+              {ME}
             </p>
           </HeroLeft>
           <HeroRight>

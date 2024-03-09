@@ -4,6 +4,21 @@ import AtherImageLong from '../Assets/Ather energy long.png';
 import TMobileShort from '../Assets/T-mobile.png';
 import InvestOnHealthLong from '../Assets/IoH_2.png';
 
+import KafkaLogo from '../Assets/kafka-icon.svg';
+import JavaLogo from '../Assets/java.svg';
+import NodeJSLogo from '../Assets/nodejs-original-wordmark.svg';
+import SpringBoot from '../Assets/spring-boot.svg';
+import MongoDB from '../Assets/mongodb-original.svg';
+import Python from '../Assets/python.svg';
+import Docker from '../Assets/docker.svg';
+import NextJS from '../Assets/next-js.svg';
+import Kubernetes from '../Assets/kubernetes.svg';
+import AWS from '../Assets/aws.svg';
+import GCP from '../Assets/gcp-color.svg';
+import NoSql from '../Assets/nosql.svg';
+import SQL from '../Assets/file-type-pgsql.svg';
+import TypeScript from '../Assets/typescript-icon.svg';
+
 export const ProjectList = [
   {
     img: AtherImageShort,
@@ -81,20 +96,76 @@ export const ProjectList = [
 
 export const stackList = [
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/html5.svg",
-    name: "HTML",
+    img: JavaLogo,
+    name: "Java",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/css3.svg",
-    name: "CSS",
+    img: NodeJSLogo,
+    name: "Node JS",
+  },
+  {
+    img: SpringBoot,
+    name: "SpringBoot",
+  },
+  {
+    img: NextJS,
+    name: "Next JS",
+  },
+  {
+    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/react.svg",
+    name: "ReactJS",
+  },
+  {
+    img: MongoDB,
+    name: "MongoDB",
+  },
+  {
+    img: NoSql,
+    name: "NoSql",
+  },
+  {
+    img: SQL,
+    name: "PGSQL",
+  },
+  {
+    img: KafkaLogo,
+    name: "Kafka",
+  },
+  {
+    img: Docker,
+    name: "Docker",
+  },
+  {
+    img: Kubernetes,
+    name: "Kubernetes",
   },
   {
     img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/javascript.svg",
     name: "JavaScript",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/react.svg",
-    name: "ReactJS",
+    img: TypeScript,
+    name: "TypeScript",
+  },
+  {
+    img: Python,
+    name: "Python",
+  },
+  {
+    img: AWS,
+    name: "AWS",
+  },
+  {
+    img: GCP,
+    name: "GCP",
+  },
+  {
+    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/html5.svg",
+    name: "HTML",
+  },
+  {
+    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/css3.svg",
+    name: "CSS",
   },
   {
     img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/bootstrap.svg",

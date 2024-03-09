@@ -117,16 +117,24 @@ video {
 
 .AboutBio,
 .tagline2 {
-  text-align: center;
-  max-width: 650px;
-  margin: 0 auto;
+  /* text-align: center; */
+  /* max-width: 650px;
+  margin: 0 auto; */
   color: #151418;
   line-height: 1.6;
 }
 
 .tagline2 {
   margin-top: 1rem;
+  font-weight: 500;
   margin-bottom: 2rem;
+  font-size: 1.3rem;
+}
+.tagline3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 1.3rem;
 }
 
 .SectionTitle {
