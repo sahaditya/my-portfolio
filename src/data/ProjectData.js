@@ -102,7 +102,7 @@ export const ProjectList = [
     description:
       `Developed a sentiment analysis solution to determine the best phone on the market based on many phone parameters. Web scraping data from several mobile review websites, storing it in MongoDB, and loading it to a server using the R programming language, building an emotion graph and a word cloud detailing the most talked-about aspects.`,
     tech_stack: "R, R Studio, MongoDB",
-    demo_url: "Website:https://www.investonhealth.com/",
+    demo_url: "Website:https://github.com/sahaditya/sentiment-analysis-model/tree/master",
   },
 ];
 
