@@ -60,6 +60,12 @@ export const ProjectList = [
   },
   {
     img: TMobileShort,
+    title: "Trial ON",
+    description: `Developed gender classification model using PyTorch, as a sub-feature of a Trial-on product, Worked on computer vision project, performed multiple cleaning stage of data.`,
+    tech_stack: "PyTorch, Python, GCP, Jupyter Notebook.",
+  },
+  {
+    img: TMobileShort,
     title: "Canvas",
     description: `Developed an end-to-end system to create a dashboard with various statistics and several actions for the customer T-Mobile, including many graphs, utilising multiple techs mentioned below.
     The dashboard is called Canvas because it displays analytics from T-Mobile's many verticals.`,
@@ -88,6 +94,14 @@ export const ProjectList = [
       Food search was implemented using several caching strategies.
       created group and individual chat rooms for nutritionists and clinician on a website.`,
     tech_stack: "SpringBoot, Angular JS, FireBase, MongoDB, AWS",
+    demo_url: "Website:https://www.investonhealth.com/",
+  },
+  {
+    img: InvestOnHealthLong,
+    title: "Personal project",
+    description:
+      `Developed a sentiment analysis solution to determine the best phone on the market based on many phone parameters. Web scraping data from several mobile review websites, storing it in MongoDB, and loading it to a server using the R programming language, building an emotion graph and a word cloud detailing the most talked-about aspects.`,
+    tech_stack: "R, R Studio, MongoDB",
     demo_url: "Website:https://www.investonhealth.com/",
   },
 ];
