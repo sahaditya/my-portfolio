@@ -61,7 +61,7 @@ export const ProjectList = [
   {
     img: TMobileShort,
     title: "Trial ON",
-    description: `Developed gender classification model using PyTorch, as a sub-feature of a Trial-on product, Worked on computer vision project, performed multiple cleaning stage of data.`,
+    description: `I worked on a Convolutional Neural Network (CNN) computer vision project, developing a gender classification model with PyTorch as a sub-feature of a product trial and performing data cleaning phases. Along with online scraping of photos from various media websites.`,
     tech_stack: "PyTorch, Python, GCP, Jupyter Notebook.",
   },
   {
